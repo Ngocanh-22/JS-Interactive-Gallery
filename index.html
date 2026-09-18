@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Interactive Photo Gallery</h1>
+
+    <div id="image">
+        Di chuột qua hình ảnh bên dưới để hiển thị tại đây.
+    </div>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+             alt="Beautiful nature"
+             onmouseover="upDate(this)"
+             onmouseout="unDo()">
+
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+             alt="Beautiful beach"
+             onmouseover="upDate(this)"
+             onmouseout="unDo()">
+
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969"
+             alt="Beautiful forest"
+             onmouseover="upDate(this)"
+             onmouseout="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
